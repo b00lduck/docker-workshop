@@ -1,11 +1,10 @@
 # docker workshop
 
+Excercise 1:
 
+Create a Dockerfile for the given go binary.
 
-## loose collection of docker commands
-docker build . -t <tagname>
-docker-compose up -d
-docker-compose logs
-docker-compose stop
-docker-compose rm
-docker ps -a
+Use "scratch" as the base image.
+
+The Go-Binary ca be built with "./build_go_binary".
+
