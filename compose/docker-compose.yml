@@ -6,3 +6,5 @@ services:
     ports:
     - "80:80"
 
+  provider:
+    image: provider
