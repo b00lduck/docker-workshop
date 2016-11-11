@@ -1,11 +1,7 @@
 # docker workshop
 
+Excercise 4:
 
+Add a volume to the docker-compose file.
 
-## loose collection of docker commands
-docker build . -t <tagname>
-docker-compose up -d
-docker-compose logs
-docker-compose stop
-docker-compose rm
-docker ps -a
+The volume should link the "/www" directory in the container to the "compose/www" directory on your hard drive (use absolute paths!)
