@@ -1,0 +1,4 @@
+bin
+src
+pkg
+build_go_binary.sh

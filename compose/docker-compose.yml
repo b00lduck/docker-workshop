@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+  consumer:
+    image: consumer
+    ports:
+    - "80:80"
+
+  provider:
+    image: provider
