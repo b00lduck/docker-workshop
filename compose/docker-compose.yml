@@ -5,9 +5,16 @@ services:
     image: consumer
     ports:
     - "80:80"
-    volumes:
-    - /home/daniel/dev/ws_b00lduck/docker-workshop/compose/www:/www
+    volumes_from:
+    - volume-container:ro
 
+    #depends-on: volume-container
+
+  volume-container:
+    image: volume-container
+    volumes:
+    - /www
 
   provider:
     image: provider
+
