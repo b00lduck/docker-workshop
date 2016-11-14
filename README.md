@@ -1,4 +1,4 @@
-# docker workshop
+# Docker-workshop 14.11.2016
 
 ## Excercise 1:
 
