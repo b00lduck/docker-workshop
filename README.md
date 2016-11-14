@@ -6,6 +6,7 @@
  - Use "scratch" as the base image
  - The service provides an HTTP server on port 8080, be sure that it will be accessible
  - Processes in docker-containers should not be started as root for security reasons
+ - Build and run the new docker image
 
 
 ## Docker commands for excercise 1:
