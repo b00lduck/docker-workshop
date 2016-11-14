@@ -11,6 +11,6 @@
  - Start and test the created image
 
 ```
-# docker build . -t consumer:latest
+# docker build consumer -t consumer:latest
 # docker run -p 80:80 consumer:latest
 ```
