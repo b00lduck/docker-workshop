@@ -7,7 +7,8 @@
  - The service provides an HTTP server on port 8080, be sure that it will be accessible
  - Processes in docker-containers should not be started as root for security reasons
 
-```# docker build . -t provider:latest
-# docker run -p 8080:8080 provider:latest
+```bash
+docker build . -t provider:latest
+docker run -p 8080:8080 provider:latest
 ```
 
