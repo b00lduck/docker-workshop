@@ -8,3 +8,12 @@
  * starts the "consumer" image and exposes its port 80
  * starts the "provider" image
  - Start the compose-file and test the result
+
+## Docker commands
+
+´´´
+# docker build provider -t provider:latest
+# docker build consumer -t consumer:latest
+# cd compose
+# docker-compose up -d
+```
