@@ -12,7 +12,7 @@
 ## Docker commands for excercise 1:
 
 ```bash
-# docker build . -t provider:latest
+# docker build provider -t provider:latest
 # docker run -p 8080:8080 provider:latest
 ```
 
