@@ -8,7 +8,7 @@
  - Processes in docker-containers should not be started as root for security reasons
 
 ```bash
-docker build . -t provider:latest
-docker run -p 8080:8080 provider:latest
+# docker build . -t provider:latest
+# docker run -p 8080:8080 provider:latest
 ```
 
