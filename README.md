@@ -1,14 +1,8 @@
-# docker workshop
+# Docker-workshop 14.11.2016
 
-Excercise 1:
+## Excercise 1:
 
-Create a Dockerfile for the given go binary.
-
-Use "scratch" as the base image.
-
-The Go-Service provides an HTTP server on port 8080.
-
-Processes in Docker-Container should not be started as root.
-
-The Go-Binary ca be built with "./build_go_binary".
-
+ - Create a Dockerfile for a statically linked binary
+ - Use "scratch" as the base image
+ - The service provides an HTTP server on port 8080, be sure that it will be accessible
+ - Processes in docker-containers should not be started as root for security reasons
