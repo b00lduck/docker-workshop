@@ -9,3 +9,8 @@
  - This file should be copied/added to the folder "/etc/nginx/conf.d/default.conf" of the docker image
  - There is also a static website under "consumer/www" which should be copied to the folder "/www" of the docker image
  - Start and test the created image
+
+```
+# docker build . -t consumer:latest
+# docker run -p 80:80 consumer:latest
+```
